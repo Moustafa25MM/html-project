@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url("./Images/Body.jpg");
+    background-size: cover;
+    
+}
+
+
+.logo {
+    position: absolute;
+    margin-top: 15px;
+}
+.home {
+    background-color: #BAD7E9 ;
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+#nav {
+    text-align: right;
+    opacity: 100%;
+    margin: 0%;
+    width: 100%;
+    background-color: #BAD7E9;
+}
+#nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+#nav li {
+    padding: 15px 2%;
+    display: inline-block; 
+    text-align: right;
+}
+#nav ul li a {
+    text-decoration: none;
+    color:#000  ;
+    text-align: right;
+    font-weight: 1000;
+}
+
+.slider {
+    opacity: 40%;
+    background-color: #85586F;
+    width: 100%;
+    height: 18.75rem;
+}
+.Feature-product {
+    position: relative;
+    width: 100%;
+    height: 18.75rem;
+    display: inline-block;
+    text-align: center;
+}
+.Feature-product p {
+    margin-bottom: 0;
+    font-size: 2rem;
+    color:rgb(255, 255, 255)  ;
+    text-align: center;
+    font-weight: 1000;
+}
+.t-shirt {
+    width: 10rem;
+    height: 10rem;
+    /* position:; */
+}
+.product1 {
+    margin-top: 0;
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+    /* padding-left: 2rem; */
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product2 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    /* padding-left: 3.5rem; */
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product3 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    /* padding-left: 3.5rem; */
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product4 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    /* padding-left: 3.5rem; */
+    text-decoration: none;
+    color:rgb(255, 255, 255)  ;
+    font-weight: 1000;
+}
+.footer {
+    color:rgb(255, 255, 255)  ;
+    text-align: center;
+    font-size: larger;
+}
+.img-desc {
+    /* background-color: #BAD7E9;
+    opacity: 10%; */
+    margin-top: 12rem;
+    vertical-align: middle;
+    text-align: center;
+}
+.product-image {
+    display: inline-block;
+}
+.product-image img {
+    border-radius: 25px;
+    width: 15rem;
+    height: 15rem;
+}
+.desc {
+    border-radius: 20px;
+    background-color: #BAD7E9;
+    display: inline-block;
+    vertical-align: top;
+}
+.contact {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    /* margin: -50px 0 0 -50px; */
+    /* background-color: #BAD7E9; */
+    /* vertical-align: middle; */
+    /* text-align: center; */
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+margin-left: 20rem;
+width: 40rem;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+
+/* Users style.css */
+.Users {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 120px;
+    background-color: rgb(200, 200, 250, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.9);
+
+}
+caption {
+    font-size: larger;
+    width: auto;
+    font-style: italic;
+    background-color: yellow;
+    border: 3px solid;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+    border: 3px solid;
+    
+}
+tr , td , th {
+    border: 2px solid;
+    padding: 10px;
+}
+th {
+    text-transform: uppercase;
+    background: red;
+}
+tr:hover {
+    background: blue;
+    cursor: pointer;
+}
+
+.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+.main h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.Register {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.3);
+    color:white;
+}
+#Register {
+    margin: 40px;
+}
+.main label {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.main #submit {
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.main #password {
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid ;
+    block-size: 3em;
+}
+.main #email {
+    width: 100%;
+    block-size: 3em;
+}
+
+.login-labels {
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    bottom: 30%;  
+}
+
+.login-labels label {
+    font-size: 30px ;
+    padding: 15px 10px ;
+    width: 100%;
+    border: 0;
+    position: absolute;
+    right: 70%;
+    font-weight: bold;
+}
+
+.login-labels input {
+    font-size: 18px;
+    padding: 15px 10px ;
+    width: 100%;
+    border: 2px solid;
+}
+
+.login-labels button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+   padding: 10px 15px;
+   width: 20%;
+   background-color: #fff;
+   border-radius: 17px; 
+}
+
+
+
+/* .Logo {
+    width: 30px;
+    height: 30px;
+}
+
+/* #nav a {
+    
+    /* float: left; 
+    float: left;
+    margin-left: auto;
+    padding:20px ;
+    padding-top: 0;
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+}
+#nav a:hover {
+    background-color: rgb(231, 169, 169);
+}
+#nav a.active {
+    background-color: #04AA6D;
+}
+a:link { 
+    text-decoration: none; 
+}
+a:visited { 
+    text-decoration:none;
+} */ 
